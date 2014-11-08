@@ -100,7 +100,7 @@ A TEX thumbnails support for Thunar File Manager.
 %{_datadir}/thumbnailers/xcf-thumbnailer.desktop
 
 %files ffmpeg
-%{_libececdir}/ffmpeg-thumbnailer
+%{_libexecdir}/ffmpeg-thumbnailer
 %{_libexexdir}/ogg-thumbnailer
 %{_datadir}/thumbnailers/ffmpeg-thumbnailer.desktop
 %{_datadir}/thumbnailers/ogg-thumbnailer.desktop
