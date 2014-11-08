@@ -5,7 +5,7 @@
 Summary:	A thumbnail plugin for the Thunar File Manager
 Name:		thunar-thumbnailers
 Version:	0.4.1
-Release:	9
+Release:	8.1
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/thunar-plugins/thunar-thumbnailers
@@ -16,7 +16,7 @@ BuildRequires:	perl(XML::Parser)
 BuildRequires:	unzip
 BuildRequires:	dcraw
 BuildRequires:	ffmpegthumbnailer
-BuildRequires:	grace
+#BuildRequires:	grace
 BuildRequires:	texlive-latex
 Requires:	thunar >= 0.8.0
 Requires:	imagemagick
@@ -68,7 +68,7 @@ A TEX thumbnails support for Thunar File Manager.
 %build
 %configure \
 	--enable-raw \
-	--enable-grace \
+	--disable-grace \
 	--enable-ffmpeg \
 	--enable-tex
 %make
