@@ -18,6 +18,7 @@ BuildRequires:	dcraw
 BuildRequires:	ffmpegthumbnailer
 #BuildRequires:	grace
 BuildRequires:	texlive-latex
+BuildRequires:	texlive-tetex
 Requires:	thunar >= 0.8.0
 Requires:	imagemagick
 Requires:	unzip
