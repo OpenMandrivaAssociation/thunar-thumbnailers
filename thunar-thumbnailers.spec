@@ -5,7 +5,7 @@
 Summary:	A thumbnail plugin for the Thunar File Manager
 Name:		thunar-thumbnailers
 Version:	0.4.1
-Release:	8.1
+Release:	8.2
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
 URL:		http://goodies.xfce.org/projects/thunar-plugins/thunar-thumbnailers
