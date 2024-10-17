@@ -8,7 +8,7 @@ Version:	0.4.1
 Release:	11
 License:	GPLv2+
 Group:		Graphical desktop/Xfce
-URL:		http://goodies.xfce.org/projects/thunar-plugins/thunar-thumbnailers
+URL:		https://goodies.xfce.org/projects/thunar-plugins/thunar-thumbnailers
 Source0:	http://archive.xfce.org/src/apps/%{name}/%{url_ver}/%{name}-%{version}.tar.bz2
 BuildRequires:	pkgconfig(thunarx-2)
 BuildRequires:	imagemagick
